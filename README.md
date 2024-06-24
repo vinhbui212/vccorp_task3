@@ -8,7 +8,7 @@ update task 2:
     public Student getStudentById(Integer id) {
         return studentRepo.findById(id).orElse(null);
     }
-
+Lưu giá trị student vào cache để lần sau lấy thì sẽ lấy nhanh trong cache ko cần phải truy cập query trên csdl giúp tăng tốc ứng dụng
 File pom.xml
 <dependency>
 			<groupId>org.springframework.boot</groupId>
