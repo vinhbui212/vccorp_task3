@@ -25,7 +25,7 @@ Solution: Dùng ehcache và redis
 Ehcache
 Một thư viện caching có thể được sử dụng độc lập hoặc như một phần của JPA/Hibernate, cung cấp cả in-memory và disk-based caching.
 Khởi tạo theo cặp key-value lưu thông tin cần lấy
-Khó khăn khi triển khai: chưa chạy đc chương trình mới hiểu sơ sơ về cách hoạt động của cache và chưa biết cách để triển khai cache
+Khó khăn khi triển khai:  mới hiểu sơ sơ về cách hoạt động của cache 
 Ưu điểm: dễ triển khai trên spring boot và dễ config hơn redis
 Redis
 Nó là hệ thống lưu trữ dữ liệu với dạng KEY-VALUE rất mạnh mẽ và phổ biến hiện nay. Redis nổi bật bởi việc hỗ trợ nhiều cấu trúc dữ liệu cơ bản như:hash, list, set,
